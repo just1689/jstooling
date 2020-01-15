@@ -1,6 +1,6 @@
 # JS Tooling
 
-The goal of this application is to allow you to execute .js files with special functions in Javascript because executed in Go.
+The goal of this application is to allow you to execute .js files with special functions available in Javascript but implemented and executed in Go.
 
 
 ## Support built-in functions
@@ -48,6 +48,8 @@ Logging
 ## Building
 
 Windows: Clone the code and `go build -o jst.exe bin/jst.go`
+
+
 Linux: Clone the code and `go build -o jst bin/jst.go`
 
 ## Download and run
