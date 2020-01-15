@@ -33,7 +33,7 @@ Color terminal logging
 
 Clone the code and `go build app.go`
 
-## Download and install
+## Download and run
 - Visit the Releases page and download the binary for Linux or Windows.
 - Ensure it has execute permissions
 - Run `jst --file something.js` 
