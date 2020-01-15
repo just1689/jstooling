@@ -28,3 +28,12 @@ Color terminal logging
 - Ytt(tempalte, overlay, outputDir)
 - Touch(filename)
 - FileContains(filename, needle)
+
+## Building
+
+Clone the code and `go build app.go`
+
+## Download and install
+- Visit the Releases page and download the binary for Linux or Windows.
+- Ensure it has execute permissions
+- Run `jst --file something.js` 
