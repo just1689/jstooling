@@ -14,6 +14,7 @@ IO functions
 - OverwriteFileWithString(filename, varName)
 - CopyFile(fileFrom, fileTo)
 - RemoveFile(filename)
+- result = FileExists(filename)
 
 Color terminal logging
 - Magenta(text)
@@ -29,7 +30,6 @@ Color terminal logging
 - Ytt(tempalte, overlay, outputDir)
 - Touch(filename)
 - FileContains(filename, needle)
-- FileExists(filename, varName)
 - RunForOS(windows, linux)
 
 ## Building

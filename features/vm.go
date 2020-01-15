@@ -23,6 +23,7 @@ func LoadFunctions() {
 	model.VM.Set("OverwriteFileWithString", util.Wrapper(plugins.OverwriteFileWithString))
 	model.VM.Set("CopyFile", util.Wrapper(plugins.CopyFile))
 	model.VM.Set("RemoveFile", util.Wrapper(plugins.RemoveFile))
+	model.VM.Set("FileExists", util.Wrapper(plugins.FileExists))
 
 	//Color
 	model.VM.Set("Magenta", util.Wrapper(plugins.Magenta))

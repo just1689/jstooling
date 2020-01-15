@@ -142,3 +142,20 @@ var RemoveFile model.StandardFunction = func(in []string) (msg string, err error
 	err = os.Remove(in[0])
 	return
 }
+
+// in[0] the file
+// Returns "true" or "false"
+var FileExists model.StandardFunction = func(in []string) (msg string, err error) {
+	if len(in) != 1 {
+		err = errors.New("not enough parameters RemoveFile")
+		return
+	}
+	if _, err := os.Stat(in[0]); os.IsNotExist(err) {
+		msg = "false"
+		err = nil
+	} else {
+		msg = "true"
+		err = nil
+	}
+	return
+}
