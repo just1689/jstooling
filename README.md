@@ -33,6 +33,13 @@ Core features
 - FileContains(filename, needle)
 - Rename the methods to something more conventional
 - RunForOS(windows, linux)
+- v = ReadFile(file)
+- v = ReadLn()
+- v = Download(url, filename)
+- v = CreateDir(path)
+- v = OverwriteFileWithString(filename, varName)
+- v = CopyFile(fileFrom, fileTo)
+- v = RemoveFile(filename)
 
 Customizations
 - Ytt(tempalte, overlay, outputDir)
@@ -43,6 +50,9 @@ Logging
 - infoln(text)
 - errorln(text)
 - successln(text)
+
+Other
+- Consider putting the functions in an object like `jst`.
 
 
 ## Building
