@@ -21,6 +21,7 @@ Color terminal logging
 - Cyan(text)
 - Red(text)
 - Blue(text)
+- Green(text)
 
 
 ## Planned features
