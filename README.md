@@ -53,7 +53,7 @@ Logging
 
 Other
 - Consider putting the functions in an object like `jst`.
-
+- Add logging help-functions
 
 ## Building
 
