@@ -30,10 +30,12 @@ Color terminal logging
 - Touch(filename)
 - FileContains(filename, needle)
 - FileExists(filename, varName)
+- RunForOS(windows, linux)
 
 ## Building
 
-Clone the code and `go build app.go`
+Windows: Clone the code and `go build -o jst.exe bin/jst.go`
+Linux: Clone the code and `go build -o jst bin/jst.go`
 
 ## Download and run
 - Visit the Releases page and download the binary for Linux or Windows.

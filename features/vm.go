@@ -1,39 +1,18 @@
-package main
+package features
 
 import (
-	"flag"
-	"fmt"
-	"github.com/fatih/color"
 	"github.com/just1689/jstooling/model"
 	"github.com/just1689/jstooling/plugins"
 	"github.com/just1689/jstooling/util"
 	"github.com/robertkrimen/otto"
-	"io/ioutil"
 )
 
-var f = flag.String("file", "", "file to load")
-
-func main() {
-	flag.Parse()
-	util.CheckForNoWork(f)
-
+func StartVM() {
 	model.VM = otto.New()
-	loadFunctions()
-
-	handleFile()
 
 }
 
-func handleFile() {
-	b, err := ioutil.ReadFile(*f)
-	if err != nil {
-		color.Red("%s", fmt.Sprint("could not read file", *f))
-		return
-	}
-	model.VM.Run(string(b))
-}
-
-func loadFunctions() {
+func LoadFunctions() {
 
 	//IO
 	model.VM.Set("FileToVar", util.Wrapper(plugins.FileToVar))
