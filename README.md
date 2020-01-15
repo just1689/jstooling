@@ -26,11 +26,24 @@ Color terminal logging
 
 
 ## Planned features
-- Rename the methods to something more conventional
-- Ytt(tempalte, overlay, outputDir)
+
+Core features
+- panic(msg)
 - Touch(filename)
 - FileContains(filename, needle)
+- Rename the methods to something more conventional
 - RunForOS(windows, linux)
+
+Customizations
+- Ytt(tempalte, overlay, outputDir)
+
+Logging
+- announceln(text)
+- promptln(text)
+- infoln(text)
+- errorln(text)
+- successln(text)
+
 
 ## Building
 
