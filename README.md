@@ -25,6 +25,7 @@ Color terminal logging
 
 
 ## Planned features
+- Rename the methods to something more conventional
 - Ytt(tempalte, overlay, outputDir)
 - Touch(filename)
 - FileContains(filename, needle)
