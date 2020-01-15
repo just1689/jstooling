@@ -28,6 +28,7 @@ Color terminal logging
 - Ytt(tempalte, overlay, outputDir)
 - Touch(filename)
 - FileContains(filename, needle)
+- FileExists
 
 ## Building
 
