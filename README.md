@@ -42,7 +42,7 @@ Core features
 - v = RemoveFile(filename)
 
 Customizations
-- Ytt(tempalte, overlay, outputDir)
+- Ytt(template, overlay, outputDir)
 
 Logging
 - announceln(text)
