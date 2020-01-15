@@ -51,6 +51,7 @@ func loadFunctions() {
 	model.VM.Set("Cyan", util.Wrapper(plugins.Cyan))
 	model.VM.Set("Red", util.Wrapper(plugins.Red))
 	model.VM.Set("Blue", util.Wrapper(plugins.Blue))
+	model.VM.Set("Green", util.Wrapper(plugins.Green))
 
 	//YTT
 	model.VM.Set("Ytt", util.Wrapper(plugins.Ytt))
